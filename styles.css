@@ -1,0 +1,297 @@
+body { margin:0; padding:0; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
+#map {
+    position: fixed;
+    width:50%;
+    z-index: -1;
+    margin-top:0px;
+    border:15px solid lightgrey;
+    
+}
+
+/*MARKER*/
+
+/*
+.marker {
+  background-image: url('mapbox-icon.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+*/
+
+
+#intro {
+    text-align:center;  
+    border:20px;
+    border-image: url(marker-01.png) 25% repeat;
+
+}
+.intro {
+    max-width:400px; 
+    margin-top:5%;
+}
+
+
+.explore {
+    font-family:'Montserrat', sans-serif;
+    font-weight:900;
+    font-size:0.7em;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:grey;
+    text-align:center;
+    background:lightgrey;
+    margin:25px 0px;
+    display:inline-block;
+    padding:15px 20px;
+}
+
+/*TYPE*/
+
+h3 {
+    color:#f54d54;
+}
+
+p, ul {
+    font-family:'Montserrat', sans-serif;
+    font-weight:200;
+    font-size:0.7em;
+    margin-top:1em;
+    margin:0;
+    color:#2a2f36;
+    
+}
+
+h3 {
+    font-family:'Heebo', sans-serif;
+    font-weight:900;
+    font-size:2em;
+    margin-bottom:0px;
+}
+
+.country {
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:0.6em;
+    width:100%;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:600;
+}
+
+.field {
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:0.6em;
+    width:100%;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:600;
+
+}
+
+
+/*LISTS*/
+
+
+
+/*NEXT*/
+
+.next {
+    font-family:'Montserrat', sans-serif;
+    font-weight:900;
+    font-size:0.8em;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:grey;
+    text-align:center;
+    background:lightgrey;
+    margin:25px 0px
+}
+
+ul {
+    list-style:none;
+    margin:0px;
+    margin-top:12px;
+    font-size:0.6em;
+    font-weight:900;
+    color:grey;
+}
+
+ul i {
+    font-size:1em;
+}
+
+li {
+    margin:4px 0px 2px 0px;
+}
+
+a {
+    color:grey;
+}
+
+a::hover {
+    color:darkgrey;
+}
+
+.portrait {
+    padding:10px;
+    padding-bottom:10px;
+    padding-top:16px;
+    max-height: 100%;
+    max-width: 350px;
+    height: auto;
+    width: 100%;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+i {
+    margin-right:6px;
+}
+  
+/*BODY*/
+  
+
+#features {
+    width: 50%;
+    min-width:500px;
+    min-height:1000px;
+    margin-left: 50%;
+    font-family: sans-serif;
+    overflow-y: scroll;
+    background:white;
+/*
+    background-image: url("bg.svg");
+    background-size:1366px 768px;
+    background-attachment: fixed;
+*/
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.06);
+    -moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.06);
+
+
+    
+    
+}
+
+section {
+    padding:  0px 40px;
+    padding-top:20px;
+    line-height: 25px;
+    border-bottom: 1px solid #fff;
+    opacity: 0.25;
+    font-size: 1.1em;
+    height:100vh;
+    max-width:700px;
+    margin:0 auto;
+    
+}
+section.active {
+    opacity: 1;
+}
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 200px;
+}
+
+/*
+section:first-child {
+    border-bottom: none;
+    margin-bottom: 200px;
+    padding-top:80px;
+}
+*/
+
+
+/*DIAGONAL CORNER STUFF*/
+#wrapper {
+  width: 100%;
+  margin-bottom:1em;
+}
+
+.country {
+  padding-bottom: 10px;
+  padding-left:20px;
+  text-decoration: none;
+  color: white;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #f54d54;
+  height: 0;
+  display: inline-block;
+  line-height: 50px;
+}
+
+
+a::hover {
+    color:blac;
+}
+
+.field {
+  padding-bottom: 10px;
+  padding-left:20px;
+  text-decoration: none;
+  color: white;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #f54d54;
+  height: 0;
+  display: inline-block;
+  line-height: 50px;
+  
+}
+
+
+
+/*COLOR TYPES*/
+
+/*-------------BLUE---------------*/
+
+.blue-line {
+    border-bottom: 30px solid #31797d;
+}
+
+.blue-text {
+    color:#31797d;
+}
+
+/*-------------GREEN---------------*/
+
+
+.green-line {
+    border-bottom: 30px solid #61c791;
+}
+
+.green-text {
+    color:#61c791;
+}
+
+/*-------------NAVY---------------*/
+
+.navy-line {
+    border-bottom: 30px solid #2a2f36;
+}
+
+.navy-text {
+    color:#2a2f36;
+}
+
+
+/*-------------PINK---------------*/
+
+.pink-line {
+    border-bottom: 30px solid #f23c55;
+}
+
+.pink-text {
+    color:#f23c55;
+}

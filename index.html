@@ -1,0 +1,432 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:900|Montserrat:300,400,600,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+  </head>
+  <body>
+
+<!--
+<div id="topbar">
+    <img src= "images/image-01.png">
+</div>
+-->
+
+<div id='map'></div>
+<div id='features'>
+  
+  
+  
+   <section id='intro' class='active'>
+               <div class="fullwidth">
+                <img class="intro" src="intro-01.png">
+                </div>
+            <a class="explore align-self-center" href="#p1">Start Exploring →</a>
+            
+    </section>
+    
+    
+    
+    
+    <section id='p1' class='active'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/sangeeta.png">
+            </div>
+        </div>
+        <h3 class="blue-text">Sangeeta N. Bhatia</h3>
+        <div id="wrapper">
+        <div class="country blue-line"><i class="fas fa-times"></i><b>Country</b> — United States</div>
+        <div class="field blue-line"><i class="fas fa-times"></i><b>Field</b> — Science and Technology</div>
+        </div>
+        <p>Sangeeta Bhatia is trained as both a physician and an engineer, and leads a laboratory dedicated to leveraging miniaturization tools from the world of semiconductor manufacturing to impact human health at the Massachusetts Institute of Technology. Her multidisciplinary team of doctors and technologists has built countless inventions targeting everything from liver disease to cancer. Her work has been profiled in Scientific American, BBC News Forbes, The Economist, TEDMED, and more.</p>
+        <ul>
+            <li><i class="fas fa-plus-circle blue-text"></i><a href="https://www.technologyreview.com/s/546221/a-renaissance-woman-for-the-nano-age/">A Renaissance Woman for the Nano Age - MIT Technology Review</a></li>
+            <li><i class="fas fa-plus-circle blue-text"></i><a href="https://www.tedmed.com/talks/show?id=529430">Designing Tiny Tools to Find a Tumor — TEDMED</a></li>
+           
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p2">Next</a>
+        </div>
+    </section>
+    <section id='p2'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/alma.png">
+            </div>
+        </div>
+        <h3 class="green-text">Alma Harel</h3>
+        <div id="wrapper">
+        <div class="country green-line"><i class="fas fa-times"></i><b>Country</b> — Israel</div>
+        <div class="field green-line"><i class="fas fa-times"></i><b>Field</b> — Film and Media Arts</div>
+        </div>
+        <p>Alma Harel is an award-winning Israeli-American music video and film director. She is famous for her ability to artistically blur the lines between documentary and fiction, effectively utilizing choreographed dance sequences and inspired musical choices in a surreal, dream-like poetic meditation on life. In addition to creating commercial work for brands like Airbnb, Facebook and P&G, she has taught at Harvard’s Sensory Ethnography Lab and NYU.</p>
+        <ul>
+            <li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://almaharel.com/">Alma Harel — Personal Website</a>
+</li>
+
+
+<li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="https://i-d.vice.com/en_us/article/xwdqwz/lovetrue-director-alma-harel-talks-love-loss-and-psychodrama">'lovetrue' director alma har'el talks love, loss, and psychodrama - i-D
+</a>
+</li>
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p3">Next</a>
+        </div>
+    </section>
+    <section id='p3'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/jimena3.png">
+            </div>
+        </div>
+        <h3 class="pink-text">Jimena Flórez</h3>
+        <div id="wrapper">
+        <div class="country pink-line"><i class="fas fa-times"></i><b>Country</b> — Colombia</div>
+        <div class="field pink-line"><i class="fas fa-times"></i><b>Field</b> — Business and Entrepreneurship</div>
+        </div>
+        <p>Jimena Flórez is a Colombian entrepreneur and CEO of Crispy Fruits and Chaak. She is the founder of a social enterprise that both teaches agricultural sustainability to rural farmers and uses those farmers as suppliers for a global snack company, focusing on supporting fair-trade and organic production.</p>
+        <ul>
+            <li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://www.enclavemag.com/jimena-florez-revolutionizing-food-industry/">Jimena Florez: Revolutionizing the Food Industry - Enclave
+</a>
+</li>
+
+
+<li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://americasquarterly.org/content/aq-top-5-young-entrepreneurs-jimena-florez">AQ Top 5 Young Entrepreneurs: Jimena Flórez | Americas Quarterly
+</a>
+</li>
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p4">Next</a>
+        </div>
+    </section>
+    <section id='p4'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/shiina.png">
+            </div>
+        </div>
+        <h3 class="blue-text">Shiina Ringo</h3>
+        <div id="wrapper">
+        <div class="country blue-line"><i class="fas fa-times"></i><b>Country</b> — Japan</div>
+        <div class="field blue-line"><i class="fas fa-times"></i><b>Field</b> — Music and Performance</div>
+        </div>
+        <p>Shiina Ringo is a Japanese singer, songwriter and musician. She has had a boundary-pushing career spanning two decades, and has written, composed, and arranged music for many other Japanese artists as well.  She recently directed the flag handover at the closing ceremony of the Rio 2016 Olympic Games, and is part of the team in charge of the Opening and Closing Ceremonies for the 2020 Tokyo Olympics.</p>
+        <ul>
+            <li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="https://aramajapan.com/aramaexclusive/arama-interview/shiina-ringo-discusses-olympics-japans-charm/80087/">Shiina Ringo Discusses the Olympics, Japan’s Charm, and More
+</a>
+</li>
+
+
+<li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://www.obscuresound.com/2007/03/review-shiina-ringo-hesei-fuzoku/">Shiina Ringo - Heisei Fuzoku -- Obscure Sound
+</a>
+</li>
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p5">Next</a>
+        </div>
+    </section>
+    <section id='p5'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/selly.png">
+            </div>
+        </div>
+        <h3 class="green-text">Selly Raby Kane</h3>
+        <div id="wrapper">
+        <div class="country green-line"><i class="fas fa-times"></i><b>Country</b> — Senegal</div>
+        <div class="field green-line"><i class="fas fa-times"></i><b>Field</b> — Fashion and Design</div>
+        </div>
+        <p>
+Selly Raby Kane is a Senegalese fashion designer and a central figure in a new wave of creative practitioners in Dakar, Senegal's capital. She has developed an eclectic, uninhibited style that owes as much to street artist Banksy as it does to her love of traditional West African textiles. Her work has been featured in fashion magazines worldwide, and is known for her boundary-pushing designs which mesh artistic elements from cultures all over the world.</p>
+        <ul>
+           <li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://www.designindaba.com/profiles/selly-raby-kane">Selly Raby Kane | Design Indaba
+</a>
+</li>
+
+
+<li>
+<i class="fas fa-plus-circle blue-text"></i>
+<a href="http://www.designindaba.com/profiles/selly-raby-kane">MEET SELLY RABY KANE - Elle South Africa
+</a>
+</li>
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p6">Next</a>
+        </div>
+    </section>
+<!--
+    <section id='p6'>
+        <div class="grid-x">
+            <div class="portrait-wrapper cell small-12 text-align-center">
+                <img class="portrait" src="images/kathy.png">
+            </div>
+        </div>
+        <h3 class="pink-text">Kathy Gong</h3>
+        <div id="wrapper">
+        <div class="country pink-line"><i class="fas fa-times"></i><b>Country</b> — Spain</div>
+        <div class="field pink-line"><i class="fas fa-times"></i><b>Field</b> — Business and Technology</div>
+        </div>
+        <p>November 1895. London is shrouded in fog and Sherlock Holmes and Watson pass time restlessly awaiting a new case. "The London criminal is certainly a dull fellow," Sherlock bemoans. "There have been numerous petty thefts," Watson offers in response. Just then a telegram arrives from Sherlock's brother Mycroft with a mysterious case.Sherlock bemoans. "There have been numerous petty thefts," Watson offers in response. Just then a telegram arrives from Sherlock's brother Mycroft with a mysterious case.</p>
+        <ul>
+            <li><i class="fas fa-plus-circle pink-text"></i>This is a neat link to a thing</li>
+            <li><i class="fas fa-plus-circle pink-text"></i>This is another really cool link to something</li>
+            <li><i class="fas fa-plus-circle pink-text"></i>Here's another link you can visit</li>
+        </ul>
+        <div class="next">
+            <a class="next align-self-center" href="#p7">Next</a>
+        </div>
+    </section>
+-->
+</div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoieGpqdWxpeCIsImEiOiJjamVtY3puZmo1NHl4MndvMWQ1cGU0bmdhIn0.N8arVKHJ8paPnXF444qGkA';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v9',
+    center: [-0.15591514, 51.51830379],
+    zoom: 1,
+//    bearing: 27,
+//    pitch: 45
+});
+
+// -----------------------------------------------------------
+    var geojson = {
+  type: 'FeatureCollection',
+  features: [{
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [-77.032, 38.913]
+    },
+    properties: {
+      title: 'Mapbox',
+      description: 'Washington, D.C.'
+    }
+  },
+  {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [-122.414, 37.776]
+    },
+    properties: {
+      title: 'Mapbox',
+      description: 'San Francisco, California'
+    }
+  }]
+};
+// -----------------------------------------------------------
+
+
+var chapters = {
+    'intro': {
+        center: [-0.15591514, 51.51830379],
+        zoom: 4,
+        duration: 4000
+
+    },
+    'p1': {
+        
+        center: [-122.414, 37.776],
+        zoom: 4,
+        duration: 4000
+    },
+    'p2': {
+        center: [34.841999, 31.847261],
+        zoom: 4,
+        duration: 4000
+
+    },
+    'p3': {
+        center: [-73.073215, 3.900749],
+        zoom: 4,
+        duration: 4000
+    },
+    'p4': {
+        center: [138.592230, 36.386493],
+        zoom: 4,
+        duration: 4000
+
+    },
+    'p5': {
+        center: [-14.820880, 15.221447],
+        zoom: 4,
+        duration: 4000
+    },
+    'p6': {
+        center: [-14.820880, 15.221447],
+        zoom: 4,
+        duration: 4000
+    },
+    'p7': {
+        center: [-97.922211, 39.381266],
+        zoom: 4,
+        duration: 4000
+    }
+};
+
+// On every scroll event, check which element is on screen
+window.onscroll = function() {
+    var chapterNames = Object.keys(chapters);
+    for (var i = 0; i < chapterNames.length; i++) {
+        var chapterName = chapterNames[i];
+        if (isElementOnScreen(chapterName)) {
+            setActiveChapter(chapterName);
+            break;
+        }
+    }
+};
+
+var activeChapterName = 'intro';
+function setActiveChapter(chapterName) {
+    if (chapterName === activeChapterName) return;
+
+    map.flyTo(chapters[chapterName]);
+    
+
+    document.getElementById(chapterName).setAttribute('class', 'active');
+    document.getElementById(activeChapterName).setAttribute('class', '');
+
+    activeChapterName = chapterName;
+}
+
+function isElementOnScreen(id) {
+    var element = document.getElementById(id);
+    var bounds = element.getBoundingClientRect();
+    return bounds.top < window.innerHeight && bounds.bottom > 0;
+}
+
+
+
+map.on('load', function () {
+    map.addSource("states", {
+        "type": "geojson",
+        "data": "https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json"
+    });
+
+    map.addLayer({
+        "id": "state-fills",
+        "type": "fill",
+        "source": "states",
+        "layout": {},
+        "paint": {
+            "fill-color": "#ffffff",
+            "fill-opacity": 0
+        }
+    });
+
+    map.addLayer({
+        "id": "state-borders",
+        "type": "line",
+        "source": "states",
+        "layout": {},
+        "paint": {
+            "line-color": "#ffffff",
+            "line-width": 1,
+            "line-opacity": 1,
+        }
+    });
+
+    map.addLayer({
+        "id": "state-fills-hover",
+        "type": "fill",
+        "source": "states",
+        "layout": {},
+        "paint": {
+            "fill-color": "#ffffff",
+            "fill-opacity": 1
+        },
+        "filter": ["==", "name", ""]
+    });
+
+    // When the user moves their mouse over the states-fill layer, we'll update the filter in
+    // the state-fills-hover layer to only show the matching state, thus making a hover effect.
+    map.on("mousemove", "state-fills", function(e) {
+        map.setFilter("state-fills-hover", ["==", "name", e.features[0].properties.name]);
+    });
+
+    // Reset the state-fills-hover layer's filter when the mouse leaves the layer.
+    map.on("mouseleave", "state-fills", function() {
+        map.setFilter("state-fills-hover", ["==", "name", ""]);
+    });
+});
+
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+// -----------------------------------------------------------
+
+geojson.features.forEach(function(marker) {
+
+  // create a HTML element for each feature
+  var el = document.createElement('div');
+  el.className = 'marker';
+
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker(el)
+  .setLngLat(marker.geometry.coordinates)
+  .addTo(map);
+});
+// -----------------------------------------------------------
+
+
+</script>
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
